@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TaskEcart/static/css/main.14a07126.chunk.css",
-    "main.js": "/TaskEcart/static/js/main.4c19ac83.chunk.js",
-    "main.js.map": "/TaskEcart/static/js/main.4c19ac83.chunk.js.map",
+    "main.js": "/TaskEcart/static/js/main.df183bf1.chunk.js",
+    "main.js.map": "/TaskEcart/static/js/main.df183bf1.chunk.js.map",
     "runtime-main.js": "/TaskEcart/static/js/runtime-main.0eee3c29.js",
     "runtime-main.js.map": "/TaskEcart/static/js/runtime-main.0eee3c29.js.map",
     "static/js/2.fc0065a4.chunk.js": "/TaskEcart/static/js/2.fc0065a4.chunk.js",
     "static/js/2.fc0065a4.chunk.js.map": "/TaskEcart/static/js/2.fc0065a4.chunk.js.map",
     "index.html": "/TaskEcart/index.html",
-    "precache-manifest.8ec03c5b59499838c0a7d1a9c1039ff5.js": "/TaskEcart/precache-manifest.8ec03c5b59499838c0a7d1a9c1039ff5.js",
+    "precache-manifest.acd6ab01515487068b8a44dacff5a848.js": "/TaskEcart/precache-manifest.acd6ab01515487068b8a44dacff5a848.js",
     "service-worker.js": "/TaskEcart/service-worker.js",
     "static/css/main.14a07126.chunk.css.map": "/TaskEcart/static/css/main.14a07126.chunk.css.map",
     "static/js/2.fc0065a4.chunk.js.LICENSE.txt": "/TaskEcart/static/js/2.fc0065a4.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0eee3c29.js",
     "static/js/2.fc0065a4.chunk.js",
     "static/css/main.14a07126.chunk.css",
-    "static/js/main.4c19ac83.chunk.js"
+    "static/js/main.df183bf1.chunk.js"
   ]
 }
