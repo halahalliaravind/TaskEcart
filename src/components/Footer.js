@@ -12,7 +12,7 @@ function Footer() {
         </p>
         <p>
           <a href="!#" target="_top">
-            aravindhalahalli.81@gmail.com
+            tanishqjewellery@gmail.com
           </a>
         </p>
         <p style={{ paddingBottom: "5px" }}>
