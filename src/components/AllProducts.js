@@ -29,6 +29,8 @@ const MainLogic = () => {
     setPage(page + 1);
     setDatacsv(context.state.data.slice(page * 10, (page + 1) * 10));
   };
+
+
   return (
     <div style={{ marginTop: "80px" }}>
       <div className="container">
