@@ -4,7 +4,7 @@ import "./AllProducts.css";
 import ProductCard from "./ProdCard";
 import { store } from "../store/context";
 
-const Home = () => {
+const MainLogic = () => {
   const context = useContext(store);
   const { dispatch } = context;
 
@@ -47,29 +47,13 @@ const Home = () => {
           margin: "1%",
         }}
       >
-        {page > 0 && <button onClick={handlePrevious}>Previous</button>}
+        {page > 0 && <button className="btn prev-btn" onClick={handlePrevious}>Previous</button>}
         {page < context.state.data.length && (
-          <button onClick={handleNext}>Next</button>
+          <button className="btn next-btn" onClick={handleNext}>Next</button>
         )}
-      </div>
-      <hr />
-      <div className="credits text-center">
-        <p>
-          <a
-            href="http://jasonwatmore.com/post/2017/03/14/react-pagination-example-with-logic-like-google"
-            target="_top"
-          >
-            Please Contact Us for your any of the Query
-          </a>
-        </p>
-        <p>
-          <a href="http://jasonwatmore.com" target="_top">
-            aravindhalahalli.81@gmail.com
-          </a>
-        </p>
       </div>
     </div>
   );
 };
 
-export default Home;
+export default MainLogic;

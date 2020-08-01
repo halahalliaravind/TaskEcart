@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { store } from "../store/context";
-import ProductCard from "../components/ProdCard";
+// import ProductCard from "../components/ProdCard";
+import SimpleCard from "../components/AvlCard";
 import "../components/AllProducts.css";
 
 const AvailableProducts = () => {
@@ -14,7 +15,7 @@ const AvailableProducts = () => {
             if (item.avlble === "1") {
               console.log("Availabe Product");
               return (
-                <ProductCard
+                <SimpleCard
                   key={item._id}
                   id={item.id}
                   name={item.name}
